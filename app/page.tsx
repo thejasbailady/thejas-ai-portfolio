@@ -91,15 +91,25 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-black via-slate-950 to-black text-white flex flex-col items-center p-6 md:p-10">
-      <h1 className="text-4xl md:text-5xl font-bold mb-2">Thejas AI</h1>
+    <main className="min-h-screen bg-gradient-to-b from-[#f7f1e8] via-[#efe3cf] to-[#f7f1e8] text-slate-900 flex flex-col items-center p-6 md:p-10">
+      <h1 className="text-4xl md:text-5xl font-bold mb-2">Thejas Bailady</h1>
 
-      <p className="text-gray-400 mb-8">Ask my AI assistant anything about my experience</p>
+      <p className="text-slate-600 mb-6 text-center">
+        ServiceNow Developer | Technical Consultant | Client Engineering
+      </p>
+
+      <a
+        href="/thejasbailady.pdf"
+        download
+        className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition mb-8"
+      >
+        Download Resume
+      </a>
 
       <section className="w-full max-w-2xl flex-1 flex flex-col gap-4">
-        <div className="flex-1 min-h-[260px] max-h-[480px] overflow-y-auto rounded-xl border border-gray-800/60 bg-black/40 backdrop-blur-sm p-4 space-y-4">
+        <div className="flex-1 min-h-[260px] max-h-[480px] overflow-y-auto rounded-xl border border-slate-300/70 bg-white/60 backdrop-blur-sm p-4 space-y-4 shadow-sm">
           {messages.length === 0 && (
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-slate-500">
               Start the conversation by asking about my skills, projects, or what I’m best at.
             </div>
           )}
@@ -110,7 +120,7 @@ export default function Home() {
               className={`max-w-[80%] md:max-w-[70%] p-3 rounded-lg text-sm leading-relaxed whitespace-pre-line ${
                 msg.role === "user"
                   ? "bg-blue-600 text-white ml-auto shadow-md"
-                  : "bg-gray-900/80 border border-gray-800/60"
+                  : "bg-white/80 border border-slate-200 text-slate-900"
               }`}
             >
               {msg.text}
@@ -120,7 +130,7 @@ export default function Home() {
           <div ref={messagesEndRef} />
         </div>
 
-        {error && <p className="text-sm text-red-400">{error}</p>}
+        {error && <p className="text-sm text-red-600">{error}</p>}
 
         <form onSubmit={onSubmit} className="flex gap-2 items-center">
           <input
@@ -129,7 +139,7 @@ export default function Home() {
             onKeyDown={onKeyDown}
             placeholder="Type a message…"
             disabled={isLoading}
-            className="flex-1 rounded-xl border border-gray-800/60 bg-black/50 px-4 py-3 text-sm text-white placeholder:text-gray-500 outline-none focus:ring-2 focus:ring-blue-500/40"
+            className="flex-1 rounded-xl border border-slate-300/70 bg-white/70 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-500 outline-none focus:ring-2 focus:ring-blue-500/30"
             aria-label="Chat message"
           />
           <button
@@ -145,7 +155,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => void sendMessage("What ServiceNow experience does Thejas have?")}
-            className="bg-gray-800 px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            className="bg-white/70 border border-slate-300/70 px-3 py-2 rounded hover:bg-white transition-colors"
           >
             ServiceNow Experience
           </button>
@@ -153,7 +163,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => void sendMessage("Explain Thejas's projects")}
-            className="bg-gray-800 px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            className="bg-white/70 border border-slate-300/70 px-3 py-2 rounded hover:bg-white transition-colors"
           >
             Projects
           </button>
@@ -161,7 +171,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => void sendMessage("What technologies does Thejas know?")}
-            className="bg-gray-800 px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            className="bg-white/70 border border-slate-300/70 px-3 py-2 rounded hover:bg-white transition-colors"
           >
             Skills
           </button>
@@ -169,7 +179,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => void sendMessage("Tell me about Thejas's experience")}
-            className="bg-gray-800 px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            className="bg-white/70 border border-slate-300/70 px-3 py-2 rounded hover:bg-white transition-colors"
           >
             Experience
           </button>

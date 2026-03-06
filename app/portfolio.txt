@@ -1,0 +1,69 @@
+Name: Thejas Bailady
+
+Location: Bengaluru, India
+
+Role:
+Technical Consultant and Developer at ISIBISI Studios
+
+Summary:
+Technical Consultant and Developer with expertise in ServiceNow development, web applications, Power Apps, and UI/UX design. Experienced in workflow automation, scoped applications, REST API integration, and AI prompt engineering.
+
+Experience:
+
+Technical Consultant & Developer — ISIBISI Studios (Dec 2025 – Present)
+- Develops and delivers web applications aligned with business requirements
+- Builds low-code business applications using Microsoft Power Apps
+- Designs UI/UX wireframes and prototypes using Figma
+- Applies prompt engineering techniques to improve AI-assisted workflows
+- Participates in project planning and requirement analysis
+
+ServiceNow Developer — JN Technologies (Feb 2025 – Sep 2025)
+- Developed ServiceNow scoped applications and catalog items
+- Built automated workflows using Flow Designer
+- Implemented Client Scripts, Business Rules, and UI Policies
+- Integrated REST APIs with OAuth 2.0 authentication
+- Managed data imports using Transform Maps
+- Used Git version control in ServiceNow Studio
+
+Projects:
+
+Internal Audit System (Microsoft Power Apps)
+- Built enterprise audit management application
+- Created custom forms, dashboards, and workflows
+- Implemented role-based access control
+- Automated notifications using Power Automate
+- Integrated SharePoint for document management
+
+Booking Portal (ServiceNow Scoped Application)
+- Built secure booking workflows with custom tables and ACLs
+- Implemented ETL pipelines using Data Sources and Transform Maps
+- Automated approvals and notifications using Flow Designer
+
+Technical Skills:
+
+ServiceNow:
+Flow Designer, Business Rules, ACLs, Catalog Items, REST APIs, Transform Maps, Client Scripts
+
+Programming:
+JavaScript, Java, HTML, CSS, ReactJS
+
+Low Code Platforms:
+Microsoft Power Apps, Power Automate
+
+Databases:
+MySQL, MongoDB
+
+Tools:
+Git, Figma, UI/UX Design
+
+Other Skills:
+Prompt Engineering, Workflow Automation, API Integration
+
+Education:
+
+Master of Computer Applications (2022 – 2024)
+The Oxford College of Engineering
+CGPA: 8.59
+
+Bachelor of Computer Applications (2018 – 2021)
+Vivekananda Degree College
