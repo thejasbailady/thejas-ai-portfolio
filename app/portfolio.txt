@@ -3,67 +3,130 @@ Name: Thejas Bailady
 Location: Bengaluru, India
 
 Role:
-Technical Consultant and Developer at ISIBISI Studios
+Technical Consultant and Developer
 
 Summary:
-Technical Consultant and Developer with expertise in ServiceNow development, web applications, Power Apps, and UI/UX design. Experienced in workflow automation, scoped applications, REST API integration, and AI prompt engineering.
+Technical Consultant and Developer with expertise in ServiceNow development, workflow automation, web applications, and enterprise low-code solutions. Experienced in building ServiceNow scoped applications, Power Apps solutions, and modern web applications. Skilled in REST API integration, prompt engineering, and deploying full-stack applications.
 
 Experience:
 
-Technical Consultant & Developer — ISIBISI Studios (Dec 2025 – Present)
-- Develops and delivers web applications aligned with business requirements
-- Builds low-code business applications using Microsoft Power Apps
-- Designs UI/UX wireframes and prototypes using Figma
-- Applies prompt engineering techniques to improve AI-assisted workflows
-- Participates in project planning and requirement analysis
+Technical Consultant & Developer
+ISIBISI Studios
+Dec 2025 – Present
+Bengaluru, India
 
-ServiceNow Developer — JN Technologies (Feb 2025 – Sep 2025)
+Responsibilities:
+- Develop web applications aligned with business requirements and client objectives
+- Build enterprise low-code applications using Microsoft Power Apps
+- Design UI/UX wireframes and prototypes using Figma
+- Implement prompt engineering techniques to improve AI-assisted workflows
+- Participate in project planning, requirement analysis, and iterative development
+
+
+ServiceNow Developer
+JN Technologies
+Feb 2025 – Sep 2025
+Remote
+
+Responsibilities:
 - Developed ServiceNow scoped applications and catalog items
 - Built automated workflows using Flow Designer
 - Implemented Client Scripts, Business Rules, and UI Policies
-- Integrated REST APIs with OAuth 2.0 authentication
-- Managed data imports using Transform Maps
+- Integrated REST APIs using OAuth 2.0 authentication
+- Managed data imports using Data Sources and Transform Maps
 - Used Git version control in ServiceNow Studio
+
 
 Projects:
 
-Internal Audit System (Microsoft Power Apps)
-- Built enterprise audit management application
-- Created custom forms, dashboards, and workflows
-- Implemented role-based access control
-- Automated notifications using Power Automate
-- Integrated SharePoint for document management
+AI Portfolio Assistant – LLM Powered Portfolio
+Personal Project
 
-Booking Portal (ServiceNow Scoped Application)
-- Built secure booking workflows with custom tables and ACLs
-- Implemented ETL pipelines using Data Sources and Transform Maps
+Description:
+Built an interactive AI-powered portfolio where recruiters can ask questions about my experience, skills, and projects through an AI assistant.
+
+Technologies:
+Next.js, React, TypeScript, Tailwind CSS, LLM API, Vercel
+
+Features:
+- AI chatbot that answers recruiter questions
+- Prompt-based knowledge retrieval using portfolio data
+- Resume download functionality
+- Dynamic chat interface
+- Automated deployment using GitHub and Vercel
+
+
+Internal Audit System – Microsoft Power Apps
+Stanzen
+
+Description:
+Developed an enterprise internal audit management system to streamline audit workflows and compliance tracking.
+
+Features:
+- Custom forms and dashboards for audit management
+- Role-based access control for secure data access
+- Automated notifications using Power Automate
+- SharePoint integration for centralized document management
+
+
+Booking Portal – ServiceNow Scoped Application
+JN Technologies
+
+Description:
+Built a ServiceNow application to manage booking workflows with automated approvals and notifications.
+
+Features:
+- Custom tables and role-based access control using ACLs
 - Automated approvals and notifications using Flow Designer
+- Data integration using Data Sources and Transform Maps
+- Secure workflow automation within ServiceNow
+
+
+MDA & Co – Business Website
+MDA & Co.
+
+Description:
+Developed a production-ready business website with CMS-based content management and responsive UI.
+
+Features:
+- Responsive layouts for desktop, tablet, and mobile
+- CMS collections for managing website content
+- Contact and career forms with backend workflows
+- Custom domain deployment and live hosting
+- End-to-end development from requirements to deployment
+
 
 Technical Skills:
 
 ServiceNow:
 Flow Designer, Business Rules, ACLs, Catalog Items, REST APIs, Transform Maps, Client Scripts
 
-Programming:
-JavaScript, Java, HTML, CSS, ReactJS
+Development:
+JavaScript, Java, Python, ReactJS, HTML, CSS, Git, Power Apps, Power Automate, Wix, Velo
 
-Low Code Platforms:
-Microsoft Power Apps, Power Automate
+Microsoft 365:
+SharePoint, Power Platform
 
 Databases:
 MySQL, MongoDB
 
-Tools:
-Git, Figma, UI/UX Design
+Design & Tools:
+Figma, UI/UX Design
 
-Other Skills:
-Prompt Engineering, Workflow Automation, API Integration
+AI & Automation:
+Prompt Engineering, LLM API Integration
+
+Deployment:
+Vercel
+
 
 Education:
 
-Master of Computer Applications (2022 – 2024)
+Master of Computer Applications
 The Oxford College of Engineering
+2022 – 2024
 CGPA: 8.59
 
-Bachelor of Computer Applications (2018 – 2021)
+Bachelor of Computer Applications
 Vivekananda Degree College
+2018 – 2021
