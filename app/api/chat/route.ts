@@ -4,7 +4,10 @@ import fs from "node:fs"
 import path from "node:path"
 
 const portfolioPath = path.join(process.cwd(), "app", "portfolio.txt")
-const portfolio = fs.readFileSync(portfolioPath, "utf8")
+
+function getPortfolio(): string {
+  return fs.readFileSync(portfolioPath, "utf8")
+}
 
 function getClient() {
   const apiKey = process.env.GROQ_API_KEY ?? process.env.OPENAI_API_KEY
@@ -56,6 +59,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
+    const portfolio = getPortfolio()
     const completion = await client.chat.completions.create({
       model,
       messages: [
